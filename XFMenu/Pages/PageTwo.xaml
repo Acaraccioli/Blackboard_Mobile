@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XFMenu.Pages.PageTwo" BackgroundColor= "#2e4053"  >
+        <AbsoluteLayout>
+        <Label FontAttributes="Bold" TextColor="WhiteSmoke" FontSize="Large" HorizontalTextAlignment="Center" Text= "¡Bienvenidos a Blackboard!" TranslationX="50" TranslationY="70" />
+        <Label Text = "Usuario" AbsoluteLayout.LayoutBounds= "30,150,80,100" TextColor="WhiteSmoke" FontFamily="Trajan" FontSize="Medium"/>
+        <Entry x:Name= "numCuenta" TextColor="DimGray" BackgroundColor="GhostWhite" TranslationX="110" TranslationY="110" AbsoluteLayout.LayoutBounds= "-80,80,300,40"  HorizontalTextAlignment="Center" PlaceholderColor="DimGray" BindingContext="Center"/>
+
+        <Label Text = "Contraseña" AbsoluteLayout.LayoutBounds= "30,260,100,100" TextColor="WhiteSmoke" FontFamily="Trajan" FontSize="Medium" />
+        <Entry x:Name= "password" TextColor="DimGray" BackgroundColor="GhostWhite" AbsoluteLayout.LayoutBounds= "30,300,300,40"  HorizontalTextAlignment="Center" PlaceholderColor="DimGray" BindingContext="Center" IsPassword="True" />
+
+            <Button Text= "Log In"  AbsoluteLayout.LayoutBounds= "120,360,130,50" Clicked="Handle_Clicked"/>
+            <Image Source="logo.png" Scale=".5" TranslationX="120" TranslationY="400">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" ></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+
+            </Image>
+        <Image Source="logo_unitec.png" Scale=".5" TranslationX="60" TranslationY="400"></Image>
+
+
+
+    </AbsoluteLayout>
+    
+
+</ContentPage>
