@@ -2189,10 +2189,13 @@ namespace XFMenu.Droid
 			public const int logout = 2130771987;
 			
 			// aapt resource value: 0x7F010014
-			public const int menu_inbox = 2130771988;
+			public const int logo_unitec = 2130771988;
 			
 			// aapt resource value: 0x7F010015
-			public const int menu_stock = 2130771989;
+			public const int menu_inbox = 2130771989;
+			
+			// aapt resource value: 0x7F010016
+			public const int menu_stock = 2130771990;
 			
 			// aapt resource value: 0x7F02008F
 			public const int mr_dialog_material_background_dark = 2130837647;
@@ -2239,20 +2242,26 @@ namespace XFMenu.Droid
 			// aapt resource value: 0x7F02009D
 			public const int mr_ic_play_light = 2130837661;
 			
-			// aapt resource value: 0x7F010016
-			public const int notification = 2130771990;
+			// aapt resource value: 0x7F010017
+			public const int notification = 2130771991;
 			
 			// aapt resource value: 0x7F02004D
 			public const int notification_template_icon_bg = 2130837581;
 			
-			// aapt resource value: 0x7F010017
-			public const int @out = 2130771991;
-			
 			// aapt resource value: 0x7F010018
-			public const int tarea = 2130771992;
+			public const int @out = 2130771992;
 			
 			// aapt resource value: 0x7F010019
-			public const int user = 2130771993;
+			public const int pregunta = 2130771993;
+			
+			// aapt resource value: 0x7F010020
+			public const int redlabel = 2130772000;
+			
+			// aapt resource value: 0x7F010021
+			public const int tarea = 2130772001;
+			
+			// aapt resource value: 0x7F010022
+			public const int user = 2130772002;
 			
 			static Drawable()
 			{

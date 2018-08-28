@@ -9,15 +9,20 @@
         <Entry x:Name= "password" TextColor="DimGray" BackgroundColor="GhostWhite" AbsoluteLayout.LayoutBounds= "30,300,300,40"  HorizontalTextAlignment="Center" PlaceholderColor="DimGray" BindingContext="Center" IsPassword="True" />
 
             <Button Text= "Log In"  AbsoluteLayout.LayoutBounds= "120,360,130,50" Clicked="Handle_Clicked"/>
-            <Image Source="logo.png" Scale=".5" TranslationX="120" TranslationY="400">
+            <Image Source="logo.png" Scale=".5" TranslationX="160" TranslationY="410">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" ></TapGestureRecognizer>
                 </Image.GestureRecognizers>
 
             </Image>
-        <Image Source="logo_unitec.png" Scale=".5" TranslationX="60" TranslationY="400"></Image>
+        <Image Source="logo_unitec.png" Scale=".85" TranslationX="60" TranslationY="430"></Image>
 
+        <Image Source="redlabel.png" TranslationY="480">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" ></TapGestureRecognizer>
+            </Image.GestureRecognizers>
 
+        </Image>
 
     </AbsoluteLayout>
     

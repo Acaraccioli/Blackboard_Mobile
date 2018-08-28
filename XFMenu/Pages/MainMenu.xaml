@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XFMenu.Pages.MainMenu">
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XFMenu.Pages.MainMenu" >
 	<MasterDetailPage.Master>
         <ContentPage 
                 Icon="hamburger_menu.png" 
                 Title="Menu"
-                BackgroundColor="#B5002A"> <!-- Menu Title background color -->
+                BackgroundColor="#B90000"> <!-- Menu Title background color -->
             
           <!-- Slide out Menu -->
           <StackLayout VerticalOptions="FillAndExpand">
@@ -29,13 +29,13 @@
                       <ImageCell 
                                 Text="{Binding Title}" 
                                 ImageSource="{Binding Icon}"
-                                TextColor="Black"/>
+                                TextColor="WhiteSmoke"/>
                     </DataTemplate>
                   </ListView.ItemTemplate>
                 </ListView>
 
-                <Label TextColor="SlateGray" Text="Nombre: Juan Perez"  FontSize="Small" FontAttributes="Bold" Margin="-5" XAlign="Start" TranslationY="-70" TranslationX="20" />
-                <Label TextColor="DarkSlateBlue" Text="No. Cuenta: 21451242"  FontSize="Small" FontAttributes="Bold" Margin="-5" XAlign="Start" TranslationY="-60" TranslationX="20" />
+                <Label TextColor="LightSlateGray"  Text="Nombre: Juan Perez"  FontSize="Small" FontAttributes="Bold" Margin="-5" TranslationY="-70" XAlign="Center" />
+                <Label TextColor="LightSlateGray" Text="No. Cuenta: 21451242"  FontSize="Small" FontAttributes="Bold" Margin="-5"  TranslationY="-60" XAlign="Center" />
 
             </StackLayout>
             

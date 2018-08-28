@@ -18,7 +18,7 @@ namespace XFMenu.Pages
             // Build the Menu
             MainMenuItems = new List<MainMenuItem>()
     		{
-    			new MainMenuItem() { Title = "Inicio", TextColor="Black" , Icon = "home.png", TargetType = typeof(PageOne) },
+    			new MainMenuItem() { Title = "Inicio" , Icon = "home.png", TargetType = typeof(PageOne) },
     			new MainMenuItem() { Title = "Clases", Icon = "book.png", TargetType = typeof(PageTwo) },
                 new MainMenuItem() { Title = "Comunidad", Icon = "community.png", TargetType = typeof(PageTwo) },
                 new MainMenuItem() { Title = "Notificaciones", Icon = "notification.png", TargetType = typeof(PageTwo) },
